@@ -1,0 +1,26 @@
+{
+  "name": "cypress-telnyx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "npx": "cypress open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qube0d/cypress-telnyx.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Qube0d/cypress-telnyx/issues"
+  },
+  "homepage": "https://github.com/Qube0d/cypress-telnyx#readme",
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "cypress": "^10.10.0",
+    "esbuild": "^0.15.10"
+  }
+}

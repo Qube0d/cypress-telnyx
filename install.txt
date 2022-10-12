@@ -1,0 +1,16 @@
+
+1. npm init -y 
+
+2. npm install cypress --save-dev
+
+2.1 (npx cypress open)
+
+2.2 npm i -D cypress @bahmutov/cypress-esbuild-preprocessor esbuild --save-dev
+
+
+3. npm install @badeball/cypress-cucumber-preprocessor --save-dev
+
+
+5. npm install cypress cypress-cucumber-preprocessor --save-dev
+
+6. npm install --save-dev @cucumber/cucumber
