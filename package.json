@@ -1,7 +1,7 @@
 {
   "name": "cypress-telnyx",
   "version": "1.0.0",
-  "description": "",
+  "description": "test-cases for telnyx.com with Cypress, and Allure",
   "main": "index.js",
   "scripts": {
     "npx": "npx cypress run --env allure=true,allureReuseAfterSpec=true",
@@ -23,8 +23,12 @@
   "homepage": "https://github.com/Qube0d/cypress-telnyx#readme",
   "devDependencies": {
     "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "@cypress/xpath": "^2.0.2",
     "@shelex/cypress-allure-plugin": "^2.33.0",
     "cypress": "^10.10.0",
     "esbuild": "^0.15.11"
+  },
+  "dependencies": {
+    "cypress-real-events": "^1.7.2"
   }
 }
