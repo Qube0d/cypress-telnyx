@@ -1,7 +1,6 @@
 const { defineConfig } = require("cypress");
 const allureWriter = require('@shelex/cypress-allure-plugin/writer');
-//const createBundler = require("@bahmutov/cypress-esbuild-preprocessor");
-
+const createBundler = require("@bahmutov/cypress-esbuild-preprocessor");
 
 
 module.exports = defineConfig({
