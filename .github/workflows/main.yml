@@ -18,8 +18,8 @@ jobs:
         run: npm ci
       - name: Install Cypress
         run: npm install cypress --save-dev
-      #- name: Install cucumber
-      #  run: npm install --save-dev @cucumber/cucumber
+      - name: Install cucumber
+        run: npm install --save-dev @cucumber/cucumber
       - name: Run Cypress test
         run: npx cypress run --env allure=true,allureReuseAfterSpec=true
       - name: Reports Generate
