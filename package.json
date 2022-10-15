@@ -26,9 +26,15 @@
     "@cypress/xpath": "^2.0.2",
     "@shelex/cypress-allure-plugin": "^2.33.0",
     "cypress": "^10.10.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
     "esbuild": "^0.15.11"
   },
   "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^13.0.2",
+    "@cucumber/cucumber": "^8.6.0",
     "cypress-real-events": "^1.7.2"
+  },
+    "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
   }
 }
