@@ -21,3 +21,13 @@ import '@shelex/cypress-allure-plugin';
 // require('./commands')
 
 //require("cypress-xpath");
+require("cypress-xpath");
+import "cypress-real-events/support";
+
+Cypress.Server.defaults({
+  delay: 500,
+  force404: false,
+  ignore: (xhr) => {
+    return true;
+  },
+});
